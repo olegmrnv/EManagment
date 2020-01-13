@@ -42,7 +42,7 @@ namespace EmployeeManagment
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
-                routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute("default", "prajim/{controller=Home}/{action=Index}/{id?}");
             });
 
 
